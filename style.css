@@ -11,6 +11,11 @@
   .header{
     height: 11vh;
   }
+  .container{
+    background-color: #F1C40F;
+    width: 100%;
+    position: fixed;
+  }
   .nav{
     
     text-transform: uppercase;
@@ -39,6 +44,7 @@
     background: #F1C40F;
     height: 80px;
     width: 100%;
+    
   }
   
   
@@ -86,6 +92,9 @@
     background-color: rgb(77, 72, 72);
     padding: 3rem 3rem 3rem 3rem;
   } 
+  #about{
+    height: 70vh;
+  }
   .tab{
     background-color: #A3E4D7 ;
     padding-top: 4rem;
@@ -107,6 +116,9 @@
   }
   .btns{
     padding-top: 2.5rem;
+  }
+  .home-btns{
+    justify-content: center;
   }
   .btn-info{
     padding: 1rem 1.2rem;
