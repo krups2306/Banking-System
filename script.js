@@ -3,7 +3,9 @@ let myAccountBalance = parseInt(document.getElementById("myAccountBalance").inne
 function sendMoney(){
    var enterTransactionid = document.getElementById("enterTransactionid").value;
    var enterAmount = parseInt(document.getElementById("enterAmount").value);
+   
 
+   // Money transfer concept
    if (enterAmount > 15000) {
       alert("Insufficient Balance!")
    } else {
@@ -15,7 +17,7 @@ function sendMoney(){
       alert(`Your transaction is successful!!  
       ₹${enterAmount} is sent to ${enterTransactionid}`)
 
-      // transaction history 
+      // Transaction history concept
       var createPTag = document.createElement("li");
       var textNode = document.createTextNode(`₹${enterAmount} is sent to recepient with Transaction-id ${enterTransactionid} on ${Date()}.`);
       createPTag.appendChild(textNode);

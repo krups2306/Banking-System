@@ -7,14 +7,16 @@
   }
   body{
     font-family: montserrat;
+    margin: 0;
   }
   .header{
     height: 11vh;
+    width: 100%;
   }
   .container{
     background-color: #F1C40F;
     width: 100%;
-    position: fixed;
+    
   }
   .nav{
     
@@ -43,7 +45,7 @@
   nav{
     background: #F1C40F;
     height: 80px;
-    width: 100%;
+    
     
   }
   
@@ -90,10 +92,43 @@
     transform: translate(-50%, -50%);
     color: #273746;
     background-color: rgb(77, 72, 72);
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 3rem 3rem 0rem 3rem;
   } 
-  #about{
+  
+  
+  .container-1 {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+   #about .about {
+    background-color: #A3E4D7;
     height: 70vh;
+    margin-top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 150px;
+  }
+  #about .col-left {
+    width: 250px;
+    height: 360px;
+  }
+  #about .col-right {
+    width: 100%;
+  }
+  #about p{
+    padding-top: 2rem;
+    font-size: large;
   }
   .tab{
     background-color: #A3E4D7 ;
@@ -136,12 +171,12 @@
 footer{
   background-color: #F1C40F;
   color: #273746;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .cnt1{
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 ul#cnt li {
   display:inline-block;
