@@ -54,7 +54,7 @@
     height: 90vh;
     background-color: #A3E4D7 ;
     padding: 3rem;
-    margin-bottom: 1vh;
+    
 }
 .text-center{
   padding-top: 10rem;
@@ -106,13 +106,13 @@
   }
   #about {
     height: 70vh;
-    background-color: #A3E4D7;
+    background-color: #9ae4d5;
     background-size: cover;
     background-position: top center;
    	position: relative;
   	z-index: 1;
 }
-.about-title {
+#about h1{
 	font-size: 3.2rem;
 	font-weight: 300;
 	color: var(--darkgray);
@@ -163,19 +163,19 @@
   }
   #about .col-right {
     width: 100%;
-  }
+  }*/
   #about p{
     padding-top: 2rem;
     font-size: large;
-  } */
+  } 
   .tab{
     background-color: #A3E4D7 ;
     padding-top: 4rem;
   }
   .table-container{
    
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
     background-color: rgb(192, 186, 187);
   } 
   .thead-dark{
