@@ -8,6 +8,7 @@
   body{
     font-family: montserrat;
     margin: 0;
+    scroll-behavior: smooth;
   }
   .header{
     height: 11vh;
