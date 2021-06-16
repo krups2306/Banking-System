@@ -19,6 +19,8 @@
     width: 100%;
     
   }
+
+  /* Navbar starts */
   .nav{
     
     text-transform: uppercase;
@@ -49,8 +51,10 @@
     
     
   }
+  /* Navbar ends */
   
   
+  /* Home section starts */
   .hero-content{
     height: 90vh;
     background-color: #A3E4D7 ;
@@ -95,8 +99,10 @@
     background-color: rgb(77, 72, 72);
     padding: 3rem 3rem 0rem 3rem;
   } 
+  /* Home section ends */
   
-  
+
+  /* About section starts */
   .container-1 {
     min-height: 100vh;
     width: 100%;
@@ -143,32 +149,14 @@
 	letter-spacing: .2rem;
 	margin-bottom: 10px;
 }
+#about p{
+  padding-top: 2rem;
+  font-size: large;
+} 
+/* About section ends */  
+
   
-  /*  #about .about {
-    background-color: #A3E4D7;
-    height: 70vh;
-    margin-top: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    flex-direction: column-reverse;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 70px 150px;
-  }
-  #about .col-left {
-    width: 250px;
-    height: 360px;
-  }
-  #about .col-right {
-    width: 100%;
-  }*/
-  #about p{
-    padding-top: 2rem;
-    font-size: large;
-  } 
+/* Table starts */ 
   .tab{
     background-color: #A3E4D7 ;
     padding-top: 4rem;
@@ -203,10 +191,13 @@
     transition: all 0.3s;
     
 }
-
 .btn-info:hover{
     background-color: rgb(233, 16, 52)!important;
 }
+/* Table ends */
+
+
+/* Footer starts */
 footer{
   background-color: #F1C40F;
   color: #273746;
@@ -220,3 +211,4 @@ footer{
 ul#cnt li {
   display:inline-block;
 }
+/* Footer ends */
